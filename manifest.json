@@ -5,12 +5,10 @@
     "content_scripts":[
         {
             "matches":[
-                "https://docs.microsoft.com/*",
-                "http://docs.microsoft.com/*"
+                "http://*/*"
             ],
             "js":["content.js"]
         }
-    ],
-    "background":
+    ]
 
 }
