@@ -1,5 +1,7 @@
-document.body.style.backgroundColor = newFunction();
+document.body.style.backgroundColor = getDarkColor();
+document.body.style.color = "#DDDDDD";
 
-function newFunction() {
-    return "#999999";
+function getDarkColor() {
+    return "#333333";
 }
+
